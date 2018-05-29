@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: ark-compress-servicemenus
-Version: 1.1
+Version: 2.0
 Maintainer: thevladsoft
 # Pre-Depends: <comma-separated list of packages>
 Depends: ark
@@ -24,3 +24,5 @@ Recommends: rar,p7zip,bzip2
 Files: ark_addtoservicemenu.desktop /usr/share/kservices5/ServiceMenus/
 #  <more pairs, if there's more than one file to include. Notice the starting space>
 Description: Adds compress to rar, compress to 7zip, etc. service menus 
+ To have one unified "Compress" ServiceMenu, go to dolphins configurations, Services
+ and deactivate the native "Compress" option.
