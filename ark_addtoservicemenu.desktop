@@ -65,7 +65,7 @@ X-KDE-StartupNotify=false
 X-KDE-Priority=TopLevel
 
 
-[Desktop Action compressAsZip]
+[Desktop Action compressHere]
 Name=As TAR.GZ Archive
 Name[ar]=ك أرشيف TAR.GZ
 Name[ast]=Como archivu comprimíu TAR.GZ
