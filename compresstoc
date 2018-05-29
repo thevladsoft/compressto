@@ -7,11 +7,11 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: ark-compress-servicemenus
-Version: 1.0
+Version: 1.1
 Maintainer: thevladsoft
 # Pre-Depends: <comma-separated list of packages>
 Depends: ark
-Recommends: rar,p7zip
+Recommends: rar,p7zip,bzip2
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
@@ -23,4 +23,4 @@ Recommends: rar,p7zip
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 Files: ark_addtoservicemenu.desktop /usr/share/kservices5/ServiceMenus/
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: Adds compress to rar and compress to 7zip service menus 
+Description: Adds compress to rar, compress to 7zip, etc. service menus 
