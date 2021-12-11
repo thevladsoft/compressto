@@ -2,7 +2,7 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=all/all;
-Actions=compressHere;compressAsZip;compressAsTar;compressAsRar;compressAs7z;compressAstarbz2;compressTo;
+Actions=1compressHere;2compressAsZip;compressAsTar;3compressAsRar;4compressAs7z;5compressAstarbz2;6compressTo;
 X-KDE-Submenu=Compress
 X-KDE-Submenu[ar]=اضغط
 X-KDE-Submenu[ast]=Comprimir
@@ -65,7 +65,7 @@ X-KDE-StartupNotify=false
 X-KDE-Priority=TopLevel
 
 
-[Desktop Action compressHere]
+[Desktop Action 1compressHere]
 Name=As TAR.GZ Archive
 Name[ar]=ك أرشيف TAR.GZ
 Name[ast]=Como archivu comprimíu TAR.GZ
@@ -125,7 +125,7 @@ Name[zh_TW]=成 TAR.GZ 壓縮檔
 Icon=ark
 Exec=ark --changetofirstpath --add --autofilename tar.gz %F
 
-[Desktop Action compressAsZip]
+[Desktop Action 2compressAsZip]
 Name=As ZIP Archive
 Name[ar]=ك أرشيف ZIP
 Name[ast]=Como archivu comprimíu ZIP
@@ -185,7 +185,7 @@ Name[zh_TW]=成 ZIP 壓縮檔
 Icon=ark
 Exec=ark --changetofirstpath --add --autofilename zip %F
 
-[Desktop Action compressAsRar]
+[Desktop Action 3compressAsRar]
 Name=As RAR Archive
 Name[ar]=كأرشيف RAR
 Name[ast]=Como archivu comprimíu RAR
@@ -246,7 +246,7 @@ Icon=ark
 Exec=ark --changetofirstpath --add --autofilename rar %F
 
 
-[Desktop Action compressAs7z]
+[Desktop Action 4compressAs7z]
 Name=As 7ZIP Archive
 Name[ar]=كأرشيف 7ZIP
 Name[ast]=Como archivu comprimíu 7ZIP
@@ -306,7 +306,7 @@ Name[zh_TW]=成 7ZIP 壓縮檔
 Icon=ark
 Exec=ark --changetofirstpath --add --autofilename 7z %F
 
-[Desktop Action compressAstarbz2]
+[Desktop Action 5compressAstarbz2]
 Name=As TAR.BZ2 Archive
 Name[ar]=كأرشيف TAR.BZ2
 Name[ast]=Como archivu comprimíu TAR.BZ2
@@ -366,7 +366,7 @@ Name[zh_TW]=成 TAR.BZ2 壓縮檔
 Icon=ark
 Exec=ark --changetofirstpath --add --autofilename tar.bz2 %F
 
-[Desktop Action compressTo]
+[Desktop Action 6compressTo]
 Name=Compress To...
 Name[ar]=اضغط إلى...
 Name[ast]=Comprimir en...
